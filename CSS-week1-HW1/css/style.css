@@ -1,4 +1,43 @@
 body{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 150%;
+  line-height: 1.6;
+  background-color: rgb(222, 217, 211);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+  background-color: rgb(241, 233, 221);
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main {
+  display: flex;
+  gap: 20px;
+}
+
+main p {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  flex: 1;
+}
+
+footer {
+  text-align: right;
+  font-size: 0.9rem;
+  color: #666;
+  padding: 10px 20px;
 }
